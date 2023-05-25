@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+C2C_TS1,Firefox 113.0,,,2023-05-17 11:49:51,2023-05-17 11:50:36,44.627s,FAILED
+,,,,,,,
+Test Cases/Login - Demo,Firefox 113.0,,,2023-05-17 11:49:51,2023-05-17 11:50:12,20.530s,PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-17 11:49:52,2023-05-17 11:49:56,4.527s,PASSED
+"navigateToUrl(""https://qa.c2cassets.com/doctor/login"")",Firefox 113.0,,,2023-05-17 11:49:56,2023-05-17 11:50:03,6.278s,PASSED
+takeScreenshot(),Firefox 113.0,,,2023-05-17 11:50:03,2023-05-17 11:50:03,0.564s,PASSED
+"setText(findTestObject(""Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input""), ""8072536860"")",Firefox 113.0,,,2023-05-17 11:50:03,2023-05-17 11:50:04,0.818s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Continue""))",Firefox 113.0,,,2023-05-17 11:50:04,2023-05-17 11:50:05,0.712s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Connect2Clinic/input_Edit_password-input""), ""aeHFOx8jV/A="")",Firefox 113.0,,,2023-05-17 11:50:05,2023-05-17 11:50:06,1.183s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Login""))",Firefox 113.0,,,2023-05-17 11:50:06,2023-05-17 11:50:07,0.708s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_No""))",Firefox 113.0,,,2023-05-17 11:50:07,2023-05-17 11:50:09,2.536s,PASSED
+takeScreenshot(),Firefox 113.0,,,2023-05-17 11:50:09,2023-05-17 11:50:11,1.771s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Connect2Clinic/p_Dr.Rakshana V""))",Firefox 113.0,,,2023-05-17 11:50:11,2023-05-17 11:50:12,0.604s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Connect2Clinic/span_Bangalore Clinic""))",Firefox 113.0,,,2023-05-17 11:50:12,2023-05-17 11:50:12,0.405s,PASSED
+,,,,,,,
+Test Cases/Book Appointment - Demo,Firefox 113.0,,,2023-05-17 11:50:12,2023-05-17 11:50:36,23.761s,FAILED
+"openBrowser("""")",Firefox 113.0,,,2023-05-17 11:50:13,2023-05-17 11:50:17,4.087s,PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-17 11:50:17,2023-05-17 11:50:17,0.046s,PASSED
+"navigateToUrl(""https://qa.c2cassets.com/doctor/login"")",Firefox 113.0,,,2023-05-17 11:50:17,2023-05-17 11:50:21,3.983s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Book Appointment""))",Firefox 113.0,,,2023-05-17 11:50:21,2023-05-17 11:50:36,15.115s,FAILED
