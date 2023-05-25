@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="C2C_TS1" time="59.498" tests="2" failures="0" errors="0">
+   <testsuite name="C2C_TS1" tests="2" failures="0" errors="0" time="59.498" skipped="0" timestamp="2023-05-17 10:02:51" hostname="ThalluruSaiteja - DESKTOP-F8C937H" id="Test Suites/C2C_TS1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_100248\\C2C_TS1\\20230517_100248"/>
+         <property name="logFiles" value="C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_100248\\C2C_TS1\\20230517_100248\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_100248\\C2C_TS1\\20230517_100248\\1684297976941.png, C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_100248\\C2C_TS1\\20230517_100248\\1684297988256.png, C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_100248\\C2C_TS1\\20230517_100248\\1684297993319.png"/>
+         <property name="hostName" value="ThalluruSaiteja - DESKTOP-F8C937H"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Firefox 113.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="11e0d5fb-1025-4e50-9786-aafc3b7def62"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login - Demo" time="22.783" classname="Test Cases/Login - Demo" status="PASSED">
+         <system-out><![CDATA[2023-05-17 10:02:51 - [TEST_CASE][PASSED] - Test Cases/Login - Demo: Test Cases/Login - Demo
+
+2023-05-17 10:02:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-17 10:02:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-17 10:02:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-17 10:02:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-17 10:02:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-17 10:02:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_100248\\C2C_TS1\\20230517_100248\\1684297976941.png]]
+
+2023-05-17 10:02:56 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.c2cassets.com/doctor/login"): Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 10:03:00 - [MESSAGE][PASSED] - Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 10:03:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input"), "8072536860"): Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 10:03:01 - [MESSAGE][PASSED] - Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 10:03:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 10:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 10:03:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Connect2Clinic/input_Edit_password-input"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 10:03:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 10:03:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Login")): Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 10:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 10:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_No")): Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 10:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 10:03:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-17 10:03:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_100248\\C2C_TS1\\20230517_100248\\1684297988256.png]]
+
+2023-05-17 10:03:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Connect2Clinic/p_Dr.Rakshana V")): Object 'Object Repository/Page_Connect2Clinic/p_Dr.Rakshana V' is visible
+
+2023-05-17 10:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connect2Clinic/p_Dr.Rakshana V' is visible
+
+2023-05-17 10:03:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Connect2Clinic/span_Bangalore Clinic")): Object 'Object Repository/Page_Connect2Clinic/span_Bangalore Clinic' is visible
+
+2023-05-17 10:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connect2Clinic/span_Bangalore Clinic' is visible
+
+2023-05-17 10:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon")): Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 10:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 10:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_My Account")): Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 10:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 10:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/a_Logout")): Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 10:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 10:03:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-17 10:03:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_100248\\C2C_TS1\\20230517_100248\\1684297993319.png]]
+
+2023-05-17 10:03:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-17 10:03:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Book Appointment - Demo" time="36.386" classname="Test Cases/Book Appointment - Demo" status="PASSED">
+         <system-out><![CDATA[2023-05-17 10:03:14 - [TEST_CASE][PASSED] - Test Cases/Book Appointment - Demo: Test Cases/Book Appointment - Demo
+
+2023-05-17 10:03:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-17 10:03:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-17 10:03:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-17 10:03:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-17 10:03:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-17 10:03:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-17 10:03:17 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.c2cassets.com/doctor/login"): Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 10:03:22 - [MESSAGE][PASSED] - Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 10:03:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input"), "8072536860"): Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 10:03:23 - [MESSAGE][PASSED] - Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 10:03:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 10:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 10:03:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Connect2Clinic/input_Edit_password-input"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 10:03:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 10:03:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Login")): Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 10:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 10:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_No")): Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 10:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 10:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Book Appointment")): Object: 'Object Repository/Page_Connect2Clinic/button_Book Appointment' is clicked on
+
+2023-05-17 10:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Book Appointment' is clicked on
+
+2023-05-17 10:03:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/p_In-Clinic Consultation")): Object: 'Object Repository/Page_Connect2Clinic/p_In-Clinic Consultation' is clicked on
+
+2023-05-17 10:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/p_In-Clinic Consultation' is clicked on
+
+2023-05-17 10:03:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-05-17 10:03:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-17 10:03:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Connect2Clinic/button_Save  Continue")): Object 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is visible
+
+2023-05-17 10:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is visible
+
+2023-05-17 10:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Save  Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is clicked on
+
+2023-05-17 10:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is clicked on
+
+2023-05-17 10:03:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Mobile Number_patient_no"), "8919396555"): Text '8919396555' is set on object 'Object Repository/Page_Connect2Clinic/input_Mobile Number_patient_no'
+
+2023-05-17 10:03:36 - [MESSAGE][PASSED] - Text '8919396555' is set on object 'Object Repository/Page_Connect2Clinic/input_Mobile Number_patient_no'
+
+2023-05-17 10:03:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-05-17 10:03:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-17 10:03:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/h5_Sai")): Object: 'Object Repository/Page_Connect2Clinic/h5_Sai' is clicked on
+
+2023-05-17 10:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/h5_Sai' is clicked on
+
+2023-05-17 10:03:40 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2023-05-17 10:03:40 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2023-05-17 10:03:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Connect2Clinic/button_Save  Continue")): Object 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is visible
+
+2023-05-17 10:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is visible
+
+2023-05-17 10:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Save  Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is clicked on
+
+2023-05-17 10:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is clicked on
+
+2023-05-17 10:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Pay at Clinic")): Object: 'Object Repository/Page_Connect2Clinic/button_Pay at Clinic' is clicked on
+
+2023-05-17 10:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Pay at Clinic' is clicked on
+
+2023-05-17 10:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Proceed")): Object: 'Object Repository/Page_Connect2Clinic/button_Proceed' is clicked on
+
+2023-05-17 10:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Proceed' is clicked on
+
+2023-05-17 10:03:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-05-17 10:03:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-17 10:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Okay")): Object: 'Object Repository/Page_Connect2Clinic/button_Okay' is clicked on
+
+2023-05-17 10:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Okay' is clicked on
+
+2023-05-17 10:03:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-17 10:03:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-17 10:02:51 - [TEST_SUITE][PASSED] - C2C_TS1: Test Cases/Book Appointment - Demo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

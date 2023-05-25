@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="C2C_TS1" time="185.279" tests="5" failures="1" errors="0">
+   <testsuite name="C2C_TS1" tests="5" failures="1" errors="0" time="185.279" skipped="0" timestamp="2023-05-17 11:04:38" hostname="ThalluruSaiteja - DESKTOP-F8C937H" id="Test Suites/C2C_TS1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435"/>
+         <property name="logFiles" value="C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\1684301688223.png, C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\1684301695987.png, C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\1684301701189.png, C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\1684301774909.png"/>
+         <property name="hostName" value="ThalluruSaiteja - DESKTOP-F8C937H"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Firefox 113.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="a11f1d46-73a0-46c3-93f3-94f602523efc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login - Demo" time="23.766" classname="Test Cases/Login - Demo" status="PASSED">
+         <system-out><![CDATA[2023-05-17 11:04:38 - [TEST_CASE][PASSED] - Test Cases/Login - Demo: Test Cases/Login - Demo
+
+2023-05-17 11:04:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-17 11:04:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-17 11:04:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-17 11:04:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-17 11:04:43 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.c2cassets.com/doctor/login"): Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:04:47 - [MESSAGE][PASSED] - Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:04:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-17 11:04:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\1684301688223.png]]
+
+2023-05-17 11:04:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input"), "8072536860"): Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:04:49 - [MESSAGE][PASSED] - Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:04:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Connect2Clinic/input_Edit_password-input"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:04:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Login")): Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:04:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_No")): Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:04:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-17 11:04:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\1684301695987.png]]
+
+2023-05-17 11:04:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Connect2Clinic/p_Dr.Rakshana V")): Object 'Object Repository/Page_Connect2Clinic/p_Dr.Rakshana V' is visible
+
+2023-05-17 11:04:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connect2Clinic/p_Dr.Rakshana V' is visible
+
+2023-05-17 11:04:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Connect2Clinic/span_Bangalore Clinic")): Object 'Object Repository/Page_Connect2Clinic/span_Bangalore Clinic' is visible
+
+2023-05-17 11:04:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connect2Clinic/span_Bangalore Clinic' is visible
+
+2023-05-17 11:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon")): Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 11:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 11:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_My Account")): Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 11:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 11:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/a_Logout")): Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 11:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 11:05:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-17 11:05:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\1684301701189.png]]
+
+2023-05-17 11:05:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-17 11:05:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Book Appointment - Demo" time="72.647" classname="Test Cases/Book Appointment - Demo" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Book Appointment - Demo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Book Appointment - Demo.run(Book Appointment - Demo:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684301675437.run(TempTestSuite1684301675437.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Connect2Clinic/button_Okay' located by '(.//*[normalize-space(text()) and normalize-space(.)='Appointment Rescheduled'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-17 11:05:02 - [TEST_CASE][FAILED] - Test Cases/Book Appointment - Demo: Test Cases/Book Appointment - Demo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Book Appointment - Demo.run(Book Appointment - Demo:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684301675437.run(TempTestSuite1684301675437.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Connect2Clinic/button_Okay' located by '(.//*[normalize-space(text()) and normalize-space(.)='Appointment Rescheduled'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-05-17 11:05:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-17 11:05:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-17 11:05:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-17 11:05:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-17 11:05:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-17 11:05:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-17 11:05:06 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.c2cassets.com/doctor/login"): Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:05:11 - [MESSAGE][PASSED] - Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:05:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input"), "8072536860"): Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:05:11 - [MESSAGE][PASSED] - Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:05:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:05:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Connect2Clinic/input_Edit_password-input"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:05:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:05:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Login")): Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:05:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_No")): Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Book Appointment")): Object: 'Object Repository/Page_Connect2Clinic/button_Book Appointment' is clicked on
+
+2023-05-17 11:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Book Appointment' is clicked on
+
+2023-05-17 11:05:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/p_In-Clinic Consultation")): Object: 'Object Repository/Page_Connect2Clinic/p_In-Clinic Consultation' is clicked on
+
+2023-05-17 11:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/p_In-Clinic Consultation' is clicked on
+
+2023-05-17 11:05:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-05-17 11:05:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-17 11:05:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Connect2Clinic/button_Save  Continue")): Object 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is visible
+
+2023-05-17 11:05:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is visible
+
+2023-05-17 11:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Save  Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is clicked on
+
+2023-05-17 11:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is clicked on
+
+2023-05-17 11:05:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Mobile Number_patient_no"), "8919396555"): Text '8919396555' is set on object 'Object Repository/Page_Connect2Clinic/input_Mobile Number_patient_no'
+
+2023-05-17 11:05:27 - [MESSAGE][PASSED] - Text '8919396555' is set on object 'Object Repository/Page_Connect2Clinic/input_Mobile Number_patient_no'
+
+2023-05-17 11:05:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-05-17 11:05:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-17 11:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/h5_Sai")): Object: 'Object Repository/Page_Connect2Clinic/h5_Sai' is clicked on
+
+2023-05-17 11:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/h5_Sai' is clicked on
+
+2023-05-17 11:05:31 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2023-05-17 11:05:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2023-05-17 11:05:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Connect2Clinic/button_Save  Continue")): Object 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is visible
+
+2023-05-17 11:05:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is visible
+
+2023-05-17 11:05:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Save  Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is clicked on
+
+2023-05-17 11:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Save  Continue' is clicked on
+
+2023-05-17 11:05:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Pay at Clinic")): Object: 'Object Repository/Page_Connect2Clinic/button_Pay at Clinic' is clicked on
+
+2023-05-17 11:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Pay at Clinic' is clicked on
+
+2023-05-17 11:05:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Proceed")): Object: 'Object Repository/Page_Connect2Clinic/button_Proceed' is clicked on
+
+2023-05-17 11:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Proceed' is clicked on
+
+2023-05-17 11:05:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-05-17 11:05:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-17 11:05:43 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Okay")): Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Book Appointment - Demo.run(Book Appointment - Demo:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684301675437.run(TempTestSuite1684301675437.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Connect2Clinic/button_Okay' located by '(.//*[normalize-space(text()) and normalize-space(.)='Appointment Rescheduled'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1684296432859.run(Script1684296432859.groovy:66)
+	... 13 more
+)
+
+2023-05-17 11:06:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Appointment Rescheduled'])[1]/following::button[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-17 11:06:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Book Appointment - Demo.run(Book Appointment - Demo:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684301675437.run(TempTestSuite1684301675437.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Connect2Clinic/button_Okay' located by '(.//*[normalize-space(text()) and normalize-space(.)='Appointment Rescheduled'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1684296432859.run(Script1684296432859.groovy:66)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\ThalluruSaiteja\\Katalon Studio\\Connect2Clinic\\Reports\\20230517_110435\\C2C_TS1\\20230517_110435\\1684301774909.png]]]]></system-out>
+         <system-err><![CDATA[2023-05-17 11:05:02 - [TEST_CASE][FAILED] - Test Cases/Book Appointment - Demo: Test Cases/Book Appointment - Demo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Book Appointment - Demo.run(Book Appointment - Demo:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684301675437.run(TempTestSuite1684301675437.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Connect2Clinic/button_Okay' located by '(.//*[normalize-space(text()) and normalize-space(.)='Appointment Rescheduled'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cancel Appointment - Demo" time="35.141" classname="Test Cases/Cancel Appointment - Demo" status="PASSED">
+         <system-out><![CDATA[2023-05-17 11:06:15 - [TEST_CASE][PASSED] - Test Cases/Cancel Appointment - Demo: Test Cases/Cancel Appointment - Demo
+
+2023-05-17 11:06:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-17 11:06:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-05-17 11:06:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-17 11:06:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-17 11:06:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-17 11:06:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-17 11:06:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-17 11:06:19 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.c2cassets.com/doctor/login"): Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:06:24 - [MESSAGE][PASSED] - Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input"), "8072536860"): Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:06:24 - [MESSAGE][PASSED] - Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:06:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:06:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Connect2Clinic/input_Edit_password-input"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:06:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Login")): Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:06:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_No")): Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_9")): Object: 'Object Repository/Page_Connect2Clinic/div_9' is clicked on
+
+2023-05-17 11:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_9' is clicked on
+
+2023-05-17 11:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root")): Object: 'Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root' is clicked on
+
+2023-05-17 11:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root' is clicked on
+
+2023-05-17 11:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_Cancel")): Object: 'Object Repository/Page_Connect2Clinic/div_Cancel' is clicked on
+
+2023-05-17 11:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_Cancel' is clicked on
+
+2023-05-17 11:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_Cancellation Reason")): Object: 'Object Repository/Page_Connect2Clinic/div_Cancellation Reason' is clicked on
+
+2023-05-17 11:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_Cancellation Reason' is clicked on
+
+2023-05-17 11:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_Patient requested to Reschedule")): Object: 'Object Repository/Page_Connect2Clinic/div_Patient requested to Reschedule' is clicked on
+
+2023-05-17 11:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_Patient requested to Reschedule' is clicked on
+
+2023-05-17 11:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_Yes")): Object: 'Object Repository/Page_Connect2Clinic/div_Yes' is clicked on
+
+2023-05-17 11:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_Yes' is clicked on
+
+2023-05-17 11:06:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-05-17 11:06:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-05-17 11:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_Okay")): Object: 'Object Repository/Page_Connect2Clinic/div_Okay' is clicked on
+
+2023-05-17 11:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_Okay' is clicked on
+
+2023-05-17 11:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon")): Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 11:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 11:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_My Account")): Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 11:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 11:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/a_Logout")): Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 11:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 11:06:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-17 11:06:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mark No show - Demo" time="26.814" classname="Test Cases/Mark No show - Demo" status="PASSED">
+         <system-out><![CDATA[2023-05-17 11:06:50 - [TEST_CASE][PASSED] - Test Cases/Mark No show - Demo: Test Cases/Mark No show - Demo
+
+2023-05-17 11:06:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-17 11:06:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-17 11:06:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-17 11:06:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-17 11:06:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-17 11:06:53 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-17 11:06:53 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.c2cassets.com/doctor/login"): Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:06:57 - [MESSAGE][PASSED] - Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:06:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input"), "8072536860"): Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:06:58 - [MESSAGE][PASSED] - Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:06:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:06:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Connect2Clinic/input_Edit_password-input"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:07:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Login")): Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_No")): Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:07:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_6")): Object: 'Object Repository/Page_Connect2Clinic/div_6' is clicked on
+
+2023-05-17 11:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_6' is clicked on
+
+2023-05-17 11:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root")): Object: 'Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root' is clicked on
+
+2023-05-17 11:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root' is clicked on
+
+2023-05-17 11:07:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_Mark No Show")): Object: 'Object Repository/Page_Connect2Clinic/div_Mark No Show' is clicked on
+
+2023-05-17 11:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_Mark No Show' is clicked on
+
+2023-05-17 11:07:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Confirm")): Object: 'Object Repository/Page_Connect2Clinic/button_Confirm' is clicked on
+
+2023-05-17 11:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Confirm' is clicked on
+
+2023-05-17 11:07:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_OK")): Object: 'Object Repository/Page_Connect2Clinic/button_OK' is clicked on
+
+2023-05-17 11:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_OK' is clicked on
+
+2023-05-17 11:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon")): Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 11:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 11:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_My Account")): Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 11:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 11:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/a_Logout")): Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 11:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 11:07:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-17 11:07:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reschedule - Demo" time="26.579" classname="Test Cases/Reschedule - Demo" status="PASSED">
+         <system-out><![CDATA[2023-05-17 11:07:17 - [TEST_CASE][PASSED] - Test Cases/Reschedule - Demo: Test Cases/Reschedule - Demo
+
+2023-05-17 11:07:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-17 11:07:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-05-17 11:07:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-17 11:07:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-17 11:07:20 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.c2cassets.com/doctor/login"): Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:07:25 - [MESSAGE][PASSED] - Navigate to 'https://qa.c2cassets.com/doctor/login' successfully
+
+2023-05-17 11:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input"), "8072536860"): Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:07:26 - [MESSAGE][PASSED] - Text '8072536860' is set on object 'Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input'
+
+2023-05-17 11:07:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Continue")): Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Continue' is clicked on
+
+2023-05-17 11:07:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Connect2Clinic/input_Edit_password-input"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:07:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Connect2Clinic/input_Edit_password-input'
+
+2023-05-17 11:07:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Login")): Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Login' is clicked on
+
+2023-05-17 11:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_No")): Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_No' is clicked on
+
+2023-05-17 11:07:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_5")): Object: 'Object Repository/Page_Connect2Clinic/div_5' is clicked on
+
+2023-05-17 11:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_5' is clicked on
+
+2023-05-17 11:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root")): Object: 'Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root' is clicked on
+
+2023-05-17 11:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/svg_May 17, 2023_MuiSvgIcon-root' is clicked on
+
+2023-05-17 11:07:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/span_Reschedule")): Object: 'Object Repository/Page_Connect2Clinic/span_Reschedule' is clicked on
+
+2023-05-17 11:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/span_Reschedule' is clicked on
+
+2023-05-17 11:07:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Reschedule to next available slot")): Object: 'Object Repository/Page_Connect2Clinic/button_Reschedule to next available slot' is clicked on
+
+2023-05-17 11:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Reschedule to next available slot' is clicked on
+
+2023-05-17 11:07:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/button_Okay")): Object: 'Object Repository/Page_Connect2Clinic/button_Okay' is clicked on
+
+2023-05-17 11:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/button_Okay' is clicked on
+
+2023-05-17 11:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon")): Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 11:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon' is clicked on
+
+2023-05-17 11:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/div_My Account")): Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 11:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/div_My Account' is clicked on
+
+2023-05-17 11:07:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Connect2Clinic/a_Logout")): Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 11:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Connect2Clinic/a_Logout' is clicked on
+
+2023-05-17 11:07:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-17 11:07:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-17 11:04:38 - [TEST_SUITE][FAILED] - C2C_TS1: Test Cases/Book Appointment - Demo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Book Appointment - Demo.run(Book Appointment - Demo:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684301675437.run(TempTestSuite1684301675437.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Connect2Clinic/button_Okay' located by '(.//*[normalize-space(text()) and normalize-space(.)='Appointment Rescheduled'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-05-17 11:04:38 - [TEST_SUITE][FAILED] - C2C_TS1: Test Cases/Book Appointment - Demo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Connect2Clinic/button_Okay'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Book Appointment - Demo.run(Book Appointment - Demo:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684301675437.run(TempTestSuite1684301675437.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Connect2Clinic/button_Okay' located by '(.//*[normalize-space(text()) and normalize-space(.)='Appointment Rescheduled'])[1]/following::button[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

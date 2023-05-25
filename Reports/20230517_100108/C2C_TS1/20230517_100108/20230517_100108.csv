@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+C2C_TS1,Firefox 113.0,,,2023-05-17 10:01:10,2023-05-17 10:02:33,1m - 22.131s,PASSED
+,,,,,,,
+Test Cases/Login - Demo,Firefox 113.0,,,2023-05-17 10:01:11,2023-05-17 10:01:55,44.476s,PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-17 10:01:11,2023-05-17 10:01:16,4.724s,PASSED
+takeScreenshot(),Firefox 113.0,,,2023-05-17 10:01:16,2023-05-17 10:01:16,0.390s,PASSED
+"navigateToUrl(""https://qa.c2cassets.com/doctor/login"")",Firefox 113.0,,,2023-05-17 10:01:16,2023-05-17 10:01:20,3.697s,PASSED
+"setText(findTestObject(""Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input""), ""8072536860"")",Firefox 113.0,,,2023-05-17 10:01:20,2023-05-17 10:01:21,0.792s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Continue""))",Firefox 113.0,,,2023-05-17 10:01:21,2023-05-17 10:01:22,0.740s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Connect2Clinic/input_Edit_password-input""), ""aeHFOx8jV/A="")",Firefox 113.0,,,2023-05-17 10:01:22,2023-05-17 10:01:23,1.139s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Login""))",Firefox 113.0,,,2023-05-17 10:01:23,2023-05-17 10:01:24,0.731s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_No""))",Firefox 113.0,,,2023-05-17 10:01:24,2023-05-17 10:01:27,3.294s,PASSED
+takeScreenshot(),Firefox 113.0,,,2023-05-17 10:01:27,2023-05-17 10:01:28,0.758s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Connect2Clinic/p_Dr.Rakshana V""))",Firefox 113.0,,,2023-05-17 10:01:28,2023-05-17 10:01:28,0.377s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Connect2Clinic/span_Bangalore Clinic""))",Firefox 113.0,,,2023-05-17 10:01:28,2023-05-17 10:01:28,0.405s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/svg_Delhi_MuiSvgIcon-root doctor-info-home-icon""))",Firefox 113.0,,,2023-05-17 10:01:28,2023-05-17 10:01:29,0.747s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/div_My Account""))",Firefox 113.0,,,2023-05-17 10:01:29,2023-05-17 10:01:30,0.839s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/a_Logout""))",Firefox 113.0,,,2023-05-17 10:01:30,2023-05-17 10:01:54,23.744s,PASSED
+takeScreenshot(),Firefox 113.0,,,2023-05-17 10:01:54,2023-05-17 10:01:54,0.565s,PASSED
+closeBrowser(),Firefox 113.0,,,2023-05-17 10:01:54,2023-05-17 10:01:55,1.042s,PASSED
+,,,,,,,
+Test Cases/Book Appointment - Demo,Firefox 113.0,,,2023-05-17 10:01:55,2023-05-17 10:02:33,37.291s,PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-05-17 10:01:56,2023-05-17 10:01:59,3.203s,PASSED
+maximizeWindow(),Firefox 113.0,,,2023-05-17 10:01:59,2023-05-17 10:01:59,0.046s,PASSED
+"navigateToUrl(""https://qa.c2cassets.com/doctor/login"")",Firefox 113.0,,,2023-05-17 10:01:59,2023-05-17 10:02:03,4.142s,PASSED
+"setText(findTestObject(""Object Repository/Page_Connect2Clinic/input_Login to Virtual Clinic_OTP-input""), ""8072536860"")",Firefox 113.0,,,2023-05-17 10:02:03,2023-05-17 10:02:04,0.730s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Continue""))",Firefox 113.0,,,2023-05-17 10:02:04,2023-05-17 10:02:04,0.691s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Connect2Clinic/input_Edit_password-input""), ""aeHFOx8jV/A="")",Firefox 113.0,,,2023-05-17 10:02:04,2023-05-17 10:02:05,0.950s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Login""))",Firefox 113.0,,,2023-05-17 10:02:05,2023-05-17 10:02:06,0.702s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_No""))",Firefox 113.0,,,2023-05-17 10:02:06,2023-05-17 10:02:09,3.102s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Book Appointment""))",Firefox 113.0,,,2023-05-17 10:02:09,2023-05-17 10:02:10,0.948s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/p_In-Clinic Consultation""))",Firefox 113.0,,,2023-05-17 10:02:10,2023-05-17 10:02:11,0.644s,PASSED
+delay(5),Firefox 113.0,,,2023-05-17 10:02:11,2023-05-17 10:02:16,5.063s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Connect2Clinic/button_Save  Continue""))",Firefox 113.0,,,2023-05-17 10:02:16,2023-05-17 10:02:16,0.453s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Save  Continue""))",Firefox 113.0,,,2023-05-17 10:02:16,2023-05-17 10:02:17,0.641s,PASSED
+"setText(findTestObject(""Object Repository/Page_Connect2Clinic/input_Mobile Number_patient_no""), ""8919396555"")",Firefox 113.0,,,2023-05-17 10:02:17,2023-05-17 10:02:18,0.786s,PASSED
+delay(3),Firefox 113.0,,,2023-05-17 10:02:18,2023-05-17 10:02:21,3.010s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/h5_Sai""))",Firefox 113.0,,,2023-05-17 10:02:21,2023-05-17 10:02:21,0.648s,PASSED
+"scrollToPosition(9999999, 9999999)",Firefox 113.0,,,2023-05-17 10:02:21,2023-05-17 10:02:21,0.039s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Connect2Clinic/button_Save  Continue""))",Firefox 113.0,,,2023-05-17 10:02:21,2023-05-17 10:02:22,0.871s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Save  Continue""))",Firefox 113.0,,,2023-05-17 10:02:22,2023-05-17 10:02:23,0.644s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Pay at Clinic""))",Firefox 113.0,,,2023-05-17 10:02:23,2023-05-17 10:02:24,1.510s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Proceed""))",Firefox 113.0,,,2023-05-17 10:02:24,2023-05-17 10:02:25,0.637s,PASSED
+delay(5),Firefox 113.0,,,2023-05-17 10:02:25,2023-05-17 10:02:30,5.016s,PASSED
+"click(findTestObject(""Object Repository/Page_Connect2Clinic/button_Okay""))",Firefox 113.0,,,2023-05-17 10:02:30,2023-05-17 10:02:32,1.410s,PASSED
+closeBrowser(),Firefox 113.0,,,2023-05-17 10:02:32,2023-05-17 10:02:33,1.054s,PASSED
