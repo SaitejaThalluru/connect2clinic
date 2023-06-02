@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_0645 PM-0647 PM</name>
+   <tag></tag>
+   <elementGuidId>c61e7424-cb5a-4658-9826-ff4a4149a88c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558700</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558700']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f720f133-ec9b-40b6-a378-247d353dccc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>available-slots DoctorProfile_timeBox__A3GIP DoctorProfile_modalSlotWidth__1VRGf</value>
+      <webElementGuid>eb71cd0e-92bf-4f22-8ad9-f991ce7adc35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558700</value>
+      <webElementGuid>af9b22e6-7cbc-4adc-bc52-c72fdd1d7f3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>06:45 PM-06:47 PM</value>
+      <webElementGuid>12617f67-4103-4860-bbba-25f5ab2e7528</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558700&quot;)</value>
+      <webElementGuid>8ec6753b-bca2-4043-9ef4-ee23ab8bf7b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558700']</value>
+      <webElementGuid>c016c2a0-652f-402c-8737-d864a4f676ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='W'])[1]/following::button[3]</value>
+      <webElementGuid>b4545bc0-fbe6-46ce-8e4c-e517d0c9ab6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save &amp; Continue'])[1]/preceding::button[10]</value>
+      <webElementGuid>92898d54-3eb3-480d-8fb9-4b7949db71a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/button[4]</value>
+      <webElementGuid>fb86f726-0ae3-4ed5-a7c5-ae2a1245c25f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558700' and (text() = '06:45 PM-06:47 PM' or . = '06:45 PM-06:47 PM')]</value>
+      <webElementGuid>7d0aebe2-5814-4e8e-a641-998b42935fbf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

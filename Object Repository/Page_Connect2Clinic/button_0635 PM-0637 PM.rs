@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_0635 PM-0637 PM</name>
+   <tag></tag>
+   <elementGuidId>0454ac3c-6154-42b4-acb7-6a4a9015453a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558100</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '06:35 PM-06:37 PM' or . = '06:35 PM-06:37 PM')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[position()=4])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>45c51455-5c1b-4085-929c-b18dd7cce028</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>available-slots DoctorProfile_timeBox__A3GIP DoctorProfile_modalSlotWidth__1VRGf</value>
+      <webElementGuid>e87d7912-4ebb-4eb4-a020-827695889a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558100</value>
+      <webElementGuid>d7f97e8e-3353-40f3-afad-ac08cf5026a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>06:35 PM-06:37 PM</value>
+      <webElementGuid>6d8a7cfd-bd76-4474-9839-3b3d7e60d05d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558100&quot;)</value>
+      <webElementGuid>471cc8ae-e6d1-46d0-8c5b-9c5792c285eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558100']</value>
+      <webElementGuid>fcf36f86-d761-4abf-9e2a-557fda6e6d86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='W'])[1]/following::button[3]</value>
+      <webElementGuid>095670f0-4955-4c95-9772-2f81d24babcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save &amp; Continue'])[1]/preceding::button[10]</value>
+      <webElementGuid>ad011be1-8c7d-4a32-a4d6-1c6af29a15c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/button[4]</value>
+      <webElementGuid>336c5c56-0246-457d-97ab-100f6f474c12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'b98b2f14-58f6-406b-adfa-35d70fbe0c9b-1685558100' and (text() = '06:35 PM-06:37 PM' or . = '06:35 PM-06:37 PM')]</value>
+      <webElementGuid>791aae8c-6803-49cf-a036-f9b73f565489</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
